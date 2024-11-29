@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    font-family: "Roboto";
+}
+
+.navbar-container{
+    height: 100%;
+    width: 300px;
+    background: #010a1e;
+    color: white;
+    border-radius: 15px;
+    position: relative;
+    transition: all ease 250ms;
+}
+
+.nav-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    transition: ease all 2500ms;
+}
+
+
+.nav-header button{
+ background-color: white;
+ position: absolute;
+ right: 25px;
+
+ border: none;
+ height: 40px;
+ width: 40px;
+ padding: 5px;
+ border-radius: 100px;
+ font-size: 20px;
+ cursor: pointer;
+ transition: ease all 250ms;
+}
+.collapse-btn{
+    transform: rotate(-127deg);
+}
+
+.hamburgur-btn{
+    display: none;
+}
+
+.navbar-primary-container{
+    margin-top: 1rem;
+}
+
+.navbar{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.navbar li{
+    padding: 15px 0;
+    transition: all ease 300ms;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+
+.navbar li i{
+    font-size: 18px;
+    margin:0 10px;
+    
+}
+
+.nav-tooltip{
+    position: absolute;
+    display: none;
+    white-space: nowrap;
+    left: 102%;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #010a1e;
+    color: white;
+    padding: 15px;
+}
+
+.nav-title{
+    font-size: 18px;
+    
+}
+
+li:hover{
+color: black ;
+background: #fff;
+}
+
+.navbar-secondary{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.navbar-container.collapsed{
+    width: 80px;
+}
+
+.navbar-container.collapsed .nav-title {
+    display: none;
+}
+.navbar-container.collapsed .nav-header{
+    flex-direction: column;
+    gap : 10px
+}
+.navbar-container.collapsed .collapse-btn{
+    transform: translate(5px ,60px);
+
+}
+
+.navbar-container.collapsed .navbar-primary-container{
+    margin-top: 50px;
+}
+.navbar-container.collapsed .navbar li{
+    justify-content: center;
+}
+.navbar-container.collapsed .navbar li:hover .nav-tooltip{
+    display: block;
+}
+
+.navbar-container.opened{
+    height: 100%;
+}
+.navbar-container.opened .navbar-primary-container{
+    display: block;
+}
+
+/* for the smaller devices */
+
+@media screen and (max-width : 800px) {
+    .navbar-container{
+        width: 100%;
+        position: relative;
+        transition: all ease 250ms;
+        height: 80px;
+        overflow: hidden;
+    }
+    .hamburgur-btn{
+        display: block;
+    }
+    .collapse-btn{
+        display: none;
+    }
+    .navbar-primary-container{
+        display: none;
+    }
+   
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
