@@ -17,3 +17,10 @@ This repository is a comprehensive collection of reusable UI components designed
 
 ![Screenshot 2024-11-29 155939](https://github.com/user-attachments/assets/c05997cd-0cf9-4cea-9ed6-70417efa8e68)
 
+### 2. Side Navbar
+
+<img src="./assets/Screenshot 2024-11-29 203137.png" >
+
+### 3. Analog Clock
+
+<img src="./assets/Screenshot 2024-12-05 233426.png">
