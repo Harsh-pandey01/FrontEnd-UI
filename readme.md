@@ -15,5 +15,12 @@ This repository is a comprehensive collection of reusable UI components designed
 
 ### 1. Image Slider
 
-![Screenshot 2024-11-29 155939](https://github.com/user-attachments/assets/c05997cd-0cf9-4cea-9ed6-70417efa8e68)
+<img src="./assets/images/Image-Slider.png">
 
+### 2. Side Navbar ( Responsive)
+
+<img src="./assets/images/Side-Navbar.png>
+
+### 3. Analog Clock 
+
+<img src="./assets/images/Analog-Clock.png>
