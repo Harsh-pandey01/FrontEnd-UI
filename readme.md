@@ -26,11 +26,4 @@ This repository is a comprehensive collection of reusable UI components designed
 
 <img src="./assets/Screenshot 2024-12-05 233426.png">
 =======
-### 2. Side Navbar ( Responsive)
 
-<img src="./assets/images/Side-Navbar.png>
-
-### 3. Analog Clock 
-
-<img src="./assets/images/Analog-Clock.png>
->>>>>>> 6195a8f23e93f8127fafbf77ce74802381f599c6
