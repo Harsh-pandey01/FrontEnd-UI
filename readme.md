@@ -17,7 +17,7 @@ This repository is a comprehensive collection of reusable UI components designed
 
 <img src="./assets/images/Image-Slider.png">
 
-<<<<<<< HEAD
+
 ### 2. Side Navbar
 
 <img src="./assets/Screenshot 2024-11-29 203137.png" >
@@ -25,5 +25,9 @@ This repository is a comprehensive collection of reusable UI components designed
 ### 3. Analog Clock
 
 <img src="./assets/Screenshot 2024-12-05 233426.png">
-=======
+
+### 4. Carousel
+
+<img src="./assets/carausal.png">
+
 
