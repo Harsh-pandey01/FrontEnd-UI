@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   height: 100vh;
+    width: 100%;
+    font-family: "Poppins";
+    background-color: rgba(0, 0, 0, 0.877);
+    color: white;
+    padding: 1rem;
+    display: flex ;
+}
+.app{
+    display: flex;
+    flex-direction:column ;
+    height: 100%;
+    width: 1200px;
+    max-width: 100%;
+   
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.cards-wrapper{
+    max-height:calc(100% - 100px) ;
+    flex: 1;
+    background-color: rgba(19, 19, 19, 0.521);
+    display: grid;
+    overflow-y: scroll;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 10px;
+}
+
+.cards-wrapper::-webkit-scrollbar{
+    width: 0;
+}
+
+.card{
+    border: 1px solid rgba(245, 222, 179, 0.384);
+    height: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.img-wrapper{
+    height: 250px;
+}
+.title{
+    font-size: 1rem;
+}
+
+.pagination-section{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagination-wrapper{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    display: none;
+}
+.pagination-wrapper.active{
+    display: flex;
+}
+
+.prev-btn,.next-btn{
+    background-color: rgba(128, 128, 128, 0.404);
+    color: white;
+    border: none;
+    font-size: 1.25rem;
+    padding: 0.5rem 1rem;
+}
+
+.pagintaion-btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 5px;
+}
+
+.pgn-btn{
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+}
+button{
+    cursor: pointer;
+}
+.img-wrapper{
+    height: 300px;
+    width: 100%;
+    /* overflow: hidden; */
+}
+
+.img-wrapper img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    object-position: center;
+}
