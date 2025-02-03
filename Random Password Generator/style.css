@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.788);
+    font-family: "Poppins";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app{
+
+    height: fit-content;
+    width: 400px;
+    max-width: 100%;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow:  0 0 1rem rgba(128, 128, 128, 0.397);
+}
+
+.pass-input-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75rem 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.507);
+    border-radius: 5px;
+ }
+
+ .pass-input{
+    flex: 1;
+    max-width: 75%;
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+    color: #806BF4;
+    font-weight: 500;
+ }
+
+ .pass-input::placeholder{
+    font-size: 1rem;
+ }
+
+ .copy-btn i{
+    font-size: 1.5rem;
+    color: gray;
+    cursor: pointer;
+    transition: ease all 250ms;
+ }
+
+ .copy-btn i:hover{
+    color: #806BF4;
+ }
+
+.range-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 2rem 0;
+    
+    justify-content: space-between;
+}
+
+.range-input{
+flex: 1;
+accent-color: #806BF4 ;
+cursor: pointer;
+}
+.range-value{
+    font-size: 1rem;
+    color: rgb(61, 61, 61);
+}
+
+.generate-btn{
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: #806BF4;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 600;
+}

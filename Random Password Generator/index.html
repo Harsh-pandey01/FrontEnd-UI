@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Pass Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+        rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <div class="app">
+        <div class="pass-input-wrapper">
+            <input type="text" readonly class="pass-input" placeholder="Generate Password" value="">
+            <div class="copy-btn">
+                <i class="ri-file-copy-line"></i>
+            </div>
+        </div>
+        <div class="range-wrapper">
+            <input type="range" min="6" max="16"  value="8" class="range-input">
+            <span class="range-value">8</span>
+        </div>
+
+        <div class="btn-wrapper">
+            <button class="generate-btn">
+                Generate Password
+            </button>
+        </div>
+    </div>
+
+</body>
+
+</html>
