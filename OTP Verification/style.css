@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins";
+    background-color: blueviolet;
+}
+
+.otp-component-wrapper{
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 0 0 1rem rgb(95, 93, 93);
+    color: black;
+    border-radius: 10px;
+    width: 400px;
+    max-width: 100%;
+    height: fit-content;
+    text-align: center;
+}
+
+img{
+    height: 100px;
+}
+
+
+.otp-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+input{
+    width: 10%;
+    height: 40px;
+    font-size: 1.25rem;
+    align-items: center;
+    text-align: center;
+    pointer-events: none;
+    outline: none;
+    color: rgb(34, 34, 34);
+    border: 1px solid black;
+    border-radius: 5px;  
+}
+
+.otp.active{
+    pointer-events: fill;
+    border: 2px solid blueviolet;
+    border-radius: 5px;  
+}
+
+.verify-btn{
+    width: 100%;
+    padding: 1rem ;
+    background-color: blueviolet;
+    font-size: 1.025rem;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
